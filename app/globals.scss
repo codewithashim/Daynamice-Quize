@@ -103,3 +103,72 @@ main {
     }
   }
 }
+
+input[type="radio"]{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+
+.quizeContain{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  .quizeQuisten {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+    list-style: decimal;
+  }
+
+  .answerOpction {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    list-style: lower-alpha;
+  }
+
+  .answerOpction li {
+    list-style: lower-alpha;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+  
+  }
+
+  .quizeBtnSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: #1d4ed8;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    margin-top: 1rem;
+
+    &:hover {
+      background-color: #2563eb;
+    }
+  }
+}
+
+
+
